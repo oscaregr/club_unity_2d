@@ -1,0 +1,32 @@
+Realizar un punto de venta de consola( solo entrada y salida de resultados) quete permita hacer, varias compras
+de distintos productos, los cuales avarcan las areas de: limpieza, comida, juguetes, electronica.
+
+Dicho sistema deve de poder seleccionar el area el producto y especificar la cantidad de productos de los productos ya definidos.
+tambien debera de poseer un menu para poder seleccionar una area y luego otro menu para los productos respectivos.
+(ojo que te deve permitir regresar al menu primario).
+
+tambien jenere la transaccion con respecto al monto final calculado.
+debera de jenerar un ticket con todos los productos de sus respectivas lineas, con sus presios y monto total.
+se podra canselar la compra y limpiar la consola.
+el sistema solo podra cerrarse hasta que el usuario lo especifique.
+
+
+Dicho menu posera las areas, una opcion para efectuar compra, cancelar compra, y serrar sistema.
+
+Productos dentro de las areas:
+
+
+
+limpieza:
+    cloro,pinol,foca,fabulozo. precios respectivos(10,20,15,22)
+    
+comida:
+  maruchan, sabritas, rufles, coca. precios respectivos (5,8,9,12)
+  
+juguetes:
+  hotwills, spiners, otros 2 que se les ocurran. precios respectivos(40,30,50,35)
+
+electronica:
+
+  cargador, iphon X3, leds, foco. precios respectivos(36,100,40,10)
+
