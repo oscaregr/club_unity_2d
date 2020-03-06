@@ -1,13 +1,18 @@
+#rrevisar el archivo tips para cosas que posible mente no entiendas y puede que se encuentre hay.
+
+###### ACTIVIDAD  ####
+
 Realizar un punto de venta de consola( solo entrada y salida de resultados) quete permita hacer, varias compras
 de distintos productos, los cuales avarcan las areas de: limpieza, comida, juguetes, electronica.
 
 Dicho sistema deve de poder seleccionar el area el producto y especificar la cantidad de productos de los productos ya definidos.
 tambien debera de poseer un menu para poder seleccionar una area y luego otro menu para los productos respectivos.
-(ojo que te deve permitir regresar al menu primario).
+(ojo que te deve permitir moverte entre menús).
 
 tambien jenere la transaccion con respecto al monto final calculado.
 debera de jenerar un ticket con todos los productos de sus respectivas lineas, con sus presios y monto total.
-se podra canselar la compra y limpiar la consola.
+se podra canselar la compra.
+limpiar la consola cada ves que se mueva entre menus.
 el sistema solo podra cerrarse hasta que el usuario lo especifique.
 
 
@@ -29,4 +34,34 @@ juguetes:
 electronica:
 
   cargador, iphon X3, leds, foco. precios respectivos(36,100,40,10)
+
+
+ejemplo de los menus:
+
+menu principal:
+1)realizar pedido;
+2)cerrar sistema;
+
+menu de lineas(cuando selecciona realizar pedidos):
+a)limpieza;
+b)juguetes;
+c)comida;
+d)electronica;
+e)efectuar compra;
+f)cancelar pedido;
+
+
+menu de productos:(cuando se selecciona una linea) con sus presios
+1) producto1
+2) p2
+3) p3
+4) p4
+5)volver
+
+
+despues de seleccionar muestre la pregunta de:
+"cuantos (producto) deseeas?".
+posteriormente regrese al menu de productos.
+
+todos los pedidos deben de registrarse en un ticket.
 
